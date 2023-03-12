@@ -1,0 +1,416 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070928;
+    width: 1440px;
+    margin: auto;
+    background: #f8f8fa;
+}
+
+.header{
+    display: flex;
+    width: 1440px;
+    height: 89px;
+    background: #fff;
+    margin-bottom: 23px;
+}
+
+.nav {
+    position: relative;
+    align-items: center;
+    display: flex;
+    left: 90px;
+}
+.menu{
+    position: relative;
+    align-items: center;
+    display: flex;
+    left: 25px;
+    gap: 25px;
+}
+
+.nav input{
+    margin-left: 31.74px;
+    padding-left: 20px;
+    background: #F8F8FA;
+    width: 468px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.logo {
+    width: 47.26px;
+    height: 45px;
+}
+
+.button{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    background: #3456FF;
+    border-radius: 15px; 
+    align-items: center;
+}
+.button img{
+    display: block;
+    margin: auto;
+}
+
+.line{
+    margin-left: 40px;
+    width: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    transform: rotate(90deg);
+}
+
+.miniUserPhoto{
+    margin-left: 50px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #DBE7FF;
+}
+
+.userName{
+    margin-left: 7px;
+}
+
+.userProfile{
+    object-fit: fill;
+    padding-top: 45px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    top: 45px;
+}
+
+.userPhoto img{
+    width: 96px;
+    border-radius: 50%;
+    border: #F8F8FA 8px solid;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.downArrow{
+    display: flex;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: #3456FF;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.downArrow img{
+    display: block;
+    margin: 0 auto;
+}
+
+.page_layout{
+    display: flex;
+    gap: 30px;
+    width: 1260px;
+    margin: auto;
+}
+
+.userProfile{
+    width: 292px;
+    height: 358px;
+    background: linear-gradient(
+        #3456FF 99px,
+        #FFFFFF 99px);
+    border-radius: 32px;
+    margin-bottom: 21px;
+}
+
+.buttonsSaveAndBuy{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btnSaveAndBuy{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.leftColumnInfo{
+    width: 292px;
+    height: 376px;
+    background: #fff;
+    border-radius: 32px;
+}
+
+.groups{
+    width: 245px;
+    position: relative;
+    top: 15px;
+    left: 22px;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.event{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eventTime{
+    display: flex;
+    gap: 5px;
+}
+
+.storiesBlock{
+    width: 614px;
+    height: 100px;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 9px;
+}
+
+.stories{
+    display: flex;
+    gap: 18px;
+    position: relative;
+    top: 12px;
+    left: 20px;
+}
+
+.story img{
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(52, 86, 255, 0.5);
+}
+
+.story p{
+    margin: 0;
+    text-align: center;
+}
+
+.photoInCreatePost img{
+    width: 65px;
+    border-radius: 50%;
+}
+
+.createPost{
+    gap: 25px;
+    width: 614px;
+    height: 151px;
+    border-radius: 32px;
+    background: #fff;
+}
+
+.createPost input{
+    padding-left: 20px;
+    background: #F8F8FA;
+    width: 482px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+}
+
+.inputLine{
+    gap: 10px;
+    display: flex;
+    position: relative;
+    top: 13px;
+    left: 13px;
+}
+
+.buttons{
+    position: relative;
+    display: flex;
+    top: 30px;
+    left: 27px;
+    gap: 60px;
+}
+
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: rgba(52, 86, 255, 0.75);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+    
+}
+
+.newsLine{
+    margin: 5px 5px 5px;
+    gap: 25px;
+    align-items: center;
+    display: flex;
+}
+
+.line2{
+    width: 421px;
+    height: 0px;
+    border: 1px solid #070928;
+}
+
+.content{
+    padding-top: 32px;
+    padding-left: 16px;
+    width: 614px;
+    height: 562px;
+    border-radius: 32px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.following{
+    width: 293px;
+    height: 416px;
+    border-radius: 32px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.followingBtn{
+    width: 235px;
+    position: relative;
+    top: 39px;
+    left: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses{
+    width: 292px;
+    height: 341px;
+    border-radius: 32px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.information{
+    width: 292px;
+    height: 212px;
+    border-radius: 32px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.messages{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(7, 9, 40, 0.75);
+    display: flex;
+    gap: 12px;
+    padding-left: 31px;
+    width: 261px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    align-items: center;
+}
+
+.photoOfRecommendation img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    margin-right: 14px;
+}
+
+.addBtn img{
+    width: 15px;
+}
+
+.recommendUsers{
+    position: relative;
+    left: 8px;
+    top: 55px;
+    width: 251.5px;
+}
+
+.nameOfRecommend{
+    width: 163px;
+}
+
+.recommendUser{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userInfoContent{
+    display: flex;
+    width: 600px;
+}
+
+.userPhotoImageContent img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.userNameDescripTime{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.topic{
+    margin-bottom: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.optionsToContent{
+    width: 450px;
+    display: flex;
+    margin-left: 35px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.addComment{
+    display: flex;
+    gap: 5px;
+}
+
+.addComment input{
+    padding-left: 20px;
+    background: #F8F8FA;
+    width: 482px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+}
